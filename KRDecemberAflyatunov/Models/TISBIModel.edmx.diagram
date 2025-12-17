@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="63f1855f0d85442ea6e54b82de252f38" Name="Diagram1">
+        <EntityTypeShape EntityType="TISBIModel.Grades" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Groups" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.GroupSubjects" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Roles" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Specialities" Width="1.5" PointX="2.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Students" Width="1.5" PointX="6" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Subjects" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Teachers" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TISBIModel.Users" Width="1.5" PointX="1.5" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="TISBIModel.FK__Grades__idGroupS__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Grades__idStuden__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Grades__UpdatedB__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__GroupSubj__idGro__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Students__idGrou__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__GroupSubj__idSub__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__GroupSubj__idTea__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Users__idRole__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Students__idUser__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="TISBIModel.FK__Teachers__idUser__4BAC3F29" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
